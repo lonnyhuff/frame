@@ -13,8 +13,7 @@ html, body {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  z-index: -1;
 
   /* Filter effects */
-  filter: grayscale(1) blur(3px) brightness(1.1) contrast(0.95);
+  filter: grayscale(1) blur(25px) brightness(1.1) contrast(0.95);
 }
