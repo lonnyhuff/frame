@@ -6,7 +6,7 @@ html, body {
   height: 100%;
 }
 
-#ghostVid {
+video {
   position: fixed;
   top: 0;
   left: 0;
@@ -15,5 +15,5 @@ html, body {
   object-fit: cover;
 
   /* Filter effects */
-  filter: grayscale(1) blur(25px) brightness(1.1) contrast(0.95);
+  filter: grayscale(1) blur(20px) brightness(1.1) contrast(0.9);
 }
