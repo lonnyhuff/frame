@@ -16,5 +16,5 @@ html, body {
   z-index: -1;
 
   /* Filter effects */
-  filter: grayscale(1) blur(6px) brightness(1.1) contrast(0.9);
+  filter: grayscale(1) blur(3px) brightness(1.1) contrast(0.95);
 }
