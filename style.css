@@ -6,6 +6,10 @@ html, body {
   height: 100%;
 }
 
+body {
+  border: 10px solid red;
+}
+
 #ghostVid {
   position: fixed;
   top: 0;
