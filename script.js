@@ -1,2 +1,4 @@
 const video = document.getElementById('ghostVid');
-video.playbackRate = 0.7; 
+video.playbackRate = 0.3; 
+
+
