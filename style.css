@@ -6,9 +6,14 @@ html, body {
   height: 100%;
 }
 
-canvas {
-  display: block;
-  width: 100%;
-  height: 100%;
-  filter: blur(4px) brightness(1.1) contrast(0.8);
+#ghostVid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+
+  filter: grayscale(1) blur(6px) brightness(1.1) contrast(0.9);
+  z-index: -1;
 }
